@@ -640,6 +640,7 @@ stroke: rgba(0, 0, 0, 0.10); */
 .form-agreement-label {
   display: block;
   margin-bottom: 24px;
+  
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
@@ -647,6 +648,9 @@ stroke: rgba(0, 0, 0, 0.10); */
   color: #8e8f99;
   user-select: none;
 }
+
+
+
 .checkbox {
 }
 .form-agreement-checkbox {
