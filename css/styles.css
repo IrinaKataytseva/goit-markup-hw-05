@@ -693,12 +693,16 @@ stroke: rgba(46, 47, 66, 0.40); */
 
 .subscribe-form-button {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 16px;
+
+  min-width: 165px;
+  height: 40px;
   padding: 8px 24px;
 
   color: #fff;
-
+border: none;
   border-radius: 4px;
   background: #4d5ae5;
 
@@ -706,7 +710,8 @@ stroke: rgba(46, 47, 66, 0.40); */
 
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
 }
 .subscribe-form-icon {
+  margin-left: 16px;
 }
