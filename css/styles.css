@@ -684,12 +684,12 @@ stroke: rgba(0, 0, 0, 0.10); */
   /* stroke-width: 1px;
 stroke: rgba(46, 47, 66, 0.40); */
 }
-.checkbox:checked + .form-agreement-checkbox {
+/* .checkbox:checked + .form-agreement-checkbox {
   background-color: #404bbf;
   border-bottom: #404bbf;
 }
 /* dobavila dla tega span */
-.checkbox:checked .form-agreement-checkbox{
+/* .checkbox:checked .form-agreement-checkbox{
   border: none; 
 
 }
@@ -701,6 +701,13 @@ stroke: rgba(46, 47, 66, 0.40); */
 
 .checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
   opacity: 1;
+} */ 
+
+
+.checkbox:checked + .form-agreement-label>.form-agreement-checkbox{
+  background-color:#404bbf;
+  border: none;
+  fill:#F4F4FD;
 }
 
 .form-agreement-link {
