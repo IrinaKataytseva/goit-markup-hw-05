@@ -644,6 +644,9 @@ stroke: rgba(0, 0, 0, 0.10); */
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.form-message:focus{
+  border-color: #4D5AE5;
+}
 /* custom checkbox */
 .form-agreement{
   margin-bottom: 24px;
